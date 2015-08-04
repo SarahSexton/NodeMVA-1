@@ -2,7 +2,7 @@
 var app = express();
 
 app.get('/', function (req, res) {
-    res.json({ message: 'hooray! welcome to our api!' });
+    res.json({ message: 'Hooray! Welcome to our API!' });
 });
 
 app.listen(process.env.PORT || 8080);
